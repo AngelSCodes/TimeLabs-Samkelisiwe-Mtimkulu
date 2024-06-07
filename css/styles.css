@@ -1,9 +1,23 @@
 body{
     font-family: sans-serif;
+    background-image: url("https://res.cloudinary.com/dwjmszkur/image/upload/v1717756364/world-map_ln2nkw.jpg");
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: block;
+    width: 200px;
+    line-height: 36px;
 }
 
 h1{
     font-size: 36px;
+    margin-top: 35px;
 }
 
 h2 {
@@ -17,6 +31,7 @@ h2 {
     box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 5px;
     background: white;
+    opacity: 0.8;
 }
 
 select {
@@ -56,4 +71,8 @@ footer{
     text-align: center;
     font-size: 13px;
     color: rgba(0, 0, 0 , 0.7);
+}
+
+a{
+    color: darkblue;
 }
